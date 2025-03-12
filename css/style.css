@@ -683,14 +683,22 @@ body {
 }
 
 /* line 539, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+.section-adventure__body-right {
+  justify-content: center;
+  align-self: center;
+}
+
+/* line 544, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body-right-pic {
   width: 555px;
 }
 
-/* line 543, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+/* line 548, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__btn {
   border: 3px solid var(--black-color);
   color: var(--black-color);
+  background: url(/img/btn_arrow.svg) no-repeat right 40.5px center;
+  padding: 15px 82.5px 16px 40.5px;
 }
 
 /*# sourceMappingURL=style.css.map */
