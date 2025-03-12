@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../#source/scss/fonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n    font-family:'Turkishye';\r\n    src: url('/fonts/Turkishye.eot');\r\n\tsrc: url('/fonts/Turkishye.eot?#iefix') format('embedded-opentype'),\r\n\t\turl('/fonts/Turkishye.woff2') format('woff2'),\r\n\t\turl('/fonts/Turkishye.woff') format('woff'),\r\n\t\turl('/fonts/Turkishye.svg#Turkishye') format('svg');\r\n    font-weight: 400;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    unicode-range: U+0020-00FE;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACN,WAAW,EAAC,WAAW;EACvB,GAAG,EAAE,2BAA2B;EACnC,GAAG,EAAE,kCAAkC,CAAC,2BAA2B,EAClE,6BAA6B,CAAC,eAAe,EAC7C,4BAA4B,CAAC,cAAc,EAC3C,qCAAqC,CAAC,aAAa;EACjD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,MAAM;EACpB,aAAa,EAAE,WAAW"
+}

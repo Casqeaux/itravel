@@ -1,29 +1,35 @@
 @charset "UTF-8";
 /*Обнуление*/
+/* line 2, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
+/* line 3, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 4, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 :focus, :active {
   outline: none;
 }
 
+/* line 5, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a:focus, a:active {
   outline: none;
 }
 
+/* line 6, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 nav, footer, header, aside {
   display: block;
 }
 
+/* line 7, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -35,42 +41,53 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
+/* line 8, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 input, button, textarea {
   font-family: inherit;
 }
 
+/* line 9, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 input::-ms-clear {
   display: none;
 }
 
+/* line 10, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 button {
   cursor: pointer;
 }
 
+/* line 11, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
+/* line 12, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a, a:visited {
   text-decoration: none;
 }
 
+/* line 13, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a:hover {
   text-decoration: none;
 }
 
+/* line 14, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 ul li {
   list-style: none;
 }
 
+/* line 15, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 img {
   vertical-align: top;
 }
 
+/* line 16, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
 }
 
 /*--------------------*/
+
+/*# sourceMappingURL=nullstyle.css.map */
