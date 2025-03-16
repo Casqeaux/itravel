@@ -549,6 +549,71 @@ body {
     border: 3px solid var(--black-color);
     color: var(--black-color);
     background: url(/img/btn_arrow.svg) no-repeat right 40.5px center;
-    padding: 15px 82.5px 16px 40.5px;
+    padding: 15px 82.5px 15px 40.5px;
   }
+
+  &__roadmap-right, 
+  &__roadmap-left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__roadmap-right-pic {
+    padding: 0 8px 0 0;
+    min-width: 21px;
+  }
+
+  & &__roadmap-left-pic {
+    padding: 0 0 0 8px;
+    min-width: 21px;
+  }
+
+  &__roadmap-right-city {
+    display: block;
+    font-family: "Turkishye", Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px 0 0 0;
+  }
+}
+
+.section-istambul {
+  min-width: 90px;
+  position: absolute;
+  top: -6%;
+  left: 45%;
+}
+
+.section-kaleiçi {
+  min-width: 90px;
+  position: absolute;
+  top: 21%;
+  left: 76%;
+}
+
+.section-kekova {
+  min-width: 90px;
+  position: absolute;
+  top: 32%;
+  left: -20%;
+}
+
+.section-termessos {
+  min-width: 90px;
+  position: absolute;
+  bottom: 21%;
+  left: 0%;
+}
+
+.section-manavgat {
+  min-width: 90px;
+  position: absolute;
+  bottom: 12%;
+  left: 35%;
+}
+
+.section-side {
+  min-width: 90px;
+  position: absolute;
+  bottom: 21%;
+  right: -2%;
 }
