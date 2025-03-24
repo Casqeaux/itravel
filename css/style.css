@@ -680,7 +680,7 @@ body {
 .section-adventure__body {
   padding: 156px 0 0 0;
   display: flex;
-  height: 620px;
+  height: 860px;
 }
 
 @media (max-width: 420px) {
@@ -981,7 +981,7 @@ body {
 .section-istambul {
   min-width: 90px;
   position: absolute;
-  top: -6%;
+  top: -4%;
   left: 45%;
 }
 
@@ -1021,7 +1021,7 @@ body {
 .section-kaleiçi {
   min-width: 90px;
   position: absolute;
-  top: 21%;
+  top: 13%;
   left: 76%;
 }
 
@@ -1077,7 +1077,7 @@ body {
 .section-kekova {
   min-width: 90px;
   position: absolute;
-  top: 32%;
+  top: 22%;
   left: -20%;
 }
 
@@ -1125,7 +1125,7 @@ body {
 .section-termessos {
   min-width: 90px;
   position: absolute;
-  bottom: 21%;
+  bottom: 47%;
   left: 0%;
 }
 
@@ -1156,7 +1156,7 @@ body {
 @media (max-width: 320px) {
   /* line 958, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-termessos {
-    top: 31%;
+    top: 54%;
     left: 0%;
   }
 }
@@ -1165,7 +1165,7 @@ body {
 .section-manavgat {
   min-width: 90px;
   position: absolute;
-  bottom: 12%;
+  bottom: 42%;
   left: 35%;
 }
 
@@ -1213,7 +1213,7 @@ body {
 .section-side {
   min-width: 90px;
   position: absolute;
-  bottom: 21%;
+  bottom: 48%;
   right: -2%;
 }
 
@@ -1255,6 +1255,34 @@ body {
     bottom: 46%;
     left: 78%;
   }
+}
+
+/* line 1050, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+.section-time2travel__bcg {
+  position: relative;
+}
+
+/* line 1054, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+.section-time2travel__pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* line 1062, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+.section-time2travel__content {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 1067, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
+.section-time2travel__title {
+  padding: 120px 0 0 0;
+  text-align: center;
+  font-size: 86px;
+  color: var(--body-color);
 }
 
 /*# sourceMappingURL=style.css.map */
