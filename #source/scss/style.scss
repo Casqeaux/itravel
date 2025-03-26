@@ -43,6 +43,7 @@
   --font-color: #ffffff;
   --main-color: #39AC03;
   --black-color: #151517;
+  --light-Gray: #C4C4C4;
 }
 
 .btn {
@@ -1062,12 +1063,71 @@ body {
   &__content {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__title {
-    padding: 120px 0 0 0;
+    padding: 130px 0 32px 0;
     text-align: center;
-    font-size: 86px;
+    font-size: 60px;
+    line-height: 110%;
+    font-weight: bold;
+    max-width: 730px;
+    font-family: "Raleway", Helvetica, sans-serif;
     color: var(--body-color)
+  }
+
+  &__desc {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--font-color);
+    padding: 0 0 60px 0;
+  }
+
+  &__ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 116px 0;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+      transition: 0.2s;
+    }
+  }
+
+  &__ellipse-wrap {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid var(--light-Gray);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__ellipse-ico {
+    width: 84px;
+    height: 84px;
+    border-radius: 100%;
+    background-color: var(--light-Gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+
+  &__ellipse-play {
+    margin: 0 0 0 5%;
+    z-index: 2;
+  }
+
+  &__whyMe {
+    width: 1200px;
+    height: 100px;
+    background-color: var(--body-color)
   }
 }
