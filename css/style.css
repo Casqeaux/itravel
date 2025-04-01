@@ -1,36 +1,29 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-/* line 2, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-/* line 3, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 :focus, :active {
   outline: none;
 }
 
-/* line 5, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a:focus, a:active {
   outline: none;
 }
 
-/* line 6, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 nav, footer, header, aside {
   display: block;
 }
 
-/* line 7, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -42,48 +35,39 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 8, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 input, button, textarea {
   font-family: inherit;
 }
 
-/* line 9, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 input::-ms-clear {
   display: none;
 }
 
-/* line 10, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 button {
   cursor: pointer;
 }
 
-/* line 11, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 12, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a, a:visited {
   text-decoration: none;
 }
 
-/* line 13, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 14, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 ul li {
   list-style: none;
 }
 
-/* line 15, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 img {
   vertical-align: top;
 }
 
-/* line 16, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/nullstyle.scss */
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
@@ -91,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
-  font-family: 'Turkishye';
+  font-family: "Turkishye";
   src: url("/fonts/Turkishye.eot");
   src: url("/fonts/Turkishye.eot?#iefix") format("embedded-opentype"), url("/fonts/Turkishye.woff2") format("woff2"), url("/fonts/Turkishye.woff") format("woff"), url("/fonts/Turkishye.svg#Turkishye") format("svg");
   font-weight: 400;
@@ -99,16 +83,12 @@ h1, h2, h3, h4, h5, h6 {
   font-stretch: normal;
   unicode-range: U+0020-00FE;
 }
-
-/* line 6, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .ibg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-
-/* line 12, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .ibg img {
   width: 0;
   height: 0;
@@ -120,14 +100,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 320px) {
-  /* line 24, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .ibg {
     display: none;
   }
 }
-
 @media (min-width: 321px) {
-  /* line 30, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .ibg-320px {
     display: none;
     background-position: center;
@@ -137,8 +114,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
-
-/* line 40, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 :root {
   --body-color: #ffffff;
   --logo-color: #ffffff;
@@ -148,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
   --light-Gray: #C4C4C4;
 }
 
-/* line 49, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .btn {
   display: block;
   padding: 14px 41.5px 14px 41.5px;
@@ -158,34 +132,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-transform: uppercase;
   color: var(--font-color);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
-/* line 60, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .btn:hover {
   border: 3px solid var(--main-color);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* line 66, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 p {
   font-size: 20px;
 }
 
-/* line 70, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 body {
   font-family: "Open Sans", Helvetica, sans-serif;
   background-color: var(--body-color);
   font-weight: 400;
 }
 
-/* line 76, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .hero-section {
-  flex: 1 0 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
   position: relative;
 }
-
-/* line 80, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .hero-section__img {
   position: absolute;
   top: 0;
@@ -195,107 +166,82 @@ body {
   z-index: -1;
 }
 
-/* line 90, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
-  /* line 96, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .container {
     max-width: 970px;
   }
 }
-
 @media (max-width: 992px) {
-  /* line 102, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .container {
     max-width: 750px;
   }
 }
-
 @media (max-width: 767px) {
-  /* line 108, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .container {
     max-width: none;
     padding: 10px 40px 10px 40px;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 115, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .container {
     max-width: none;
     padding: 10px 40px 10px 40px;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 122, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .container {
     max-width: none;
     padding: 10px 40px 10px 40px;
   }
 }
-
-/* line 128, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-link:last-child {
   margin: 0;
 }
 
-/* line 132, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__body {
   display: none;
 }
 
 @media (max-width: 768px) {
-  /* line 140, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .menu__body {
     display: block;
-    animation: anix 600ms forwards;
+    -webkit-animation: anix 600ms forwards;
+            animation: anix 600ms forwards;
   }
 }
-
-/* line 148, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-
-/* line 151, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li {
   position: relative;
   padding: 0px 37.5px;
 }
-
-/* line 155, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(2) {
   padding: 0px 110px 0px 37.5px;
 }
-
-/* line 158, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(2)::after {
   display: none;
 }
-
-/* line 163, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(3) {
   padding: 0px 37.5px 0px 110px;
 }
-
-/* line 169, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(2)::after, .menu__list li:last-child::after {
   display: none;
 }
-
 @media (max-width: 768px) {
-  /* line 138, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .menu {
     top: 15px;
   }
-  /* line 179, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .menu__body {
-    animation: anix 600ms;
+    -webkit-animation: anix 600ms;
+            animation: anix 600ms;
     position: fixed;
     height: 100%;
     width: 100%;
@@ -303,17 +249,27 @@ body {
     left: 0;
     background-color: var(--black-color);
     padding: 150px 0 20px 0;
+    -webkit-transition: 0s;
     transition: 0s;
     overflow: auto;
     opacity: 97%;
   }
-  /* line 194, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .menu__body.active {
     display: block;
     padding: 248px 0 0 0;
     top: 0;
+    -webkit-transition: 0s;
     transition: 0s;
-    animation: ani 600ms forwards;
+    -webkit-animation: ani 600ms forwards;
+            animation: ani 600ms forwards;
+  }
+  @-webkit-keyframes ani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   @keyframes ani {
     0% {
@@ -324,30 +280,27 @@ body {
     }
   }
 }
-
-/* line 214, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-/* line 219, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li {
   padding: 0 0 60px 0;
 }
-
-/* line 222, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(2), .menu__list li:nth-child(3) {
   padding: 0 0 60px 0;
 }
-
-/* line 226, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list li:nth-child(2):last-child, .menu__list li:nth-child(3):last-child {
   padding: 0;
 }
-
-/* line 232, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .menu__list__link {
   color: var(--font-color);
   font-size: 20px;
@@ -356,7 +309,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 242, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu {
     display: block;
     position: absolute;
@@ -366,7 +318,6 @@ body {
     cursor: pointer;
     z-index: 5;
   }
-  /* line 252, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu span {
     top: 8px;
     left: -10px;
@@ -374,144 +325,123 @@ body {
     height: 2px;
     width: 100%;
     background-color: var(--font-color);
+    -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  /* line 262, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu :first-child {
     top: 0;
   }
-  /* line 266, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu :last-child {
     top: auto;
     bottom: 0;
   }
-  /* line 272, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu.active span {
     background-color: #fff;
-    transform: scale(0);
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
-  /* line 276, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu.active span:first-child {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     top: 8px;
   }
-  /* line 281, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .icon-menu.active span:last-child {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
     bottom: 8px;
   }
 }
 
-/* line 291, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__body {
   height: 100vh;
   position: relative;
 }
-
 @media (max-width: 420px) {
-  /* line 297, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__body {
     height: 100%;
   }
 }
-
-/* line 302, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu {
   padding: 0 0 160px 0;
 }
-
 @media (max-width: 320px) {
-  /* line 307, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__menu {
     padding: 0 0 63px 0;
   }
 }
-
-/* line 312, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 60px 0 0 0;
 }
-
 @media (max-width: 768px) {
-  /* line 320, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__menu-list {
     display: none;
   }
 }
-
-/* line 325, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-list {
   padding: 0 60px 0 0;
 }
-
-/* line 328, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-list:last-child {
   padding: 0;
 }
-
-/* line 333, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-link {
   font-size: 20px;
   line-height: 150%;
   color: var(--font-color);
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
-/* line 339, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-link:hover {
   color: var(--main-color);
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-
-/* line 343, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__menu-link:hover:active {
   color: var(--main-color);
 }
-
-/* line 349, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__logo {
   font-family: "Turkishye", Helvetica, sans-serif;
   font-size: 36px;
   color: var(--logo-color);
 }
-
-/* line 354, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__logo:hover {
   color: var(--logo-color);
 }
-
-/* line 359, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__section-promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-/* line 365, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__section-promo-pic {
   width: 31px;
   height: 25px;
   margin: 0 0 32px 0;
 }
-
 @media (max-width: 375px) {
-  /* line 372, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-pic {
     margin: 0 0 20px 0;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 378, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-pic {
     margin: 0 0 20px 0;
   }
 }
-
-/* line 383, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__section-promo-heading {
   font-family: "Raleway", Helvetica, sans-serif;
   max-width: 450px;
@@ -522,25 +452,19 @@ body {
   font-weight: bold;
   padding: 0 0 24px 0;
 }
-
 @media (max-width: 600px) {
-  /* line 395, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-heading {
     font-size: 62px;
     text-align: center;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 402, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-heading {
     font-size: 54px;
     text-align: center;
   }
 }
-
 @media (max-width: 375px) {
-  /* line 409, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-heading {
     font-size: 48px;
     text-align: center;
@@ -549,9 +473,7 @@ body {
     padding: 0 0 20px 0;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 419, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-heading {
     font-size: 48px;
     text-align: center;
@@ -560,8 +482,6 @@ body {
     padding: 0 0 20px 0;
   }
 }
-
-/* line 428, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__section-promo-desc {
   font-size: 20px;
   line-height: 150%;
@@ -569,26 +489,20 @@ body {
   color: var(--font-color);
   padding: 0 0 56px 0;
 }
-
 @media (max-width: 768px) {
-  /* line 437, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-desc {
     width: 70%;
     text-align: center;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 444, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-desc {
     width: 74%;
     font-size: 18px;
     text-align: center;
   }
 }
-
 @media (max-width: 375px) {
-  /* line 452, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-desc {
     width: 120%;
     font-size: 15px;
@@ -597,9 +511,7 @@ body {
     padding: 0 0 32px 0;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 462, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-desc {
     width: 120%;
     font-size: 15px;
@@ -608,29 +520,21 @@ body {
     padding: 0 0 32px 0;
   }
 }
-
-/* line 471, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .header__section-promo-btn {
   margin: 0 0 218px 0;
 }
-
 @media (max-width: 420px) {
-  /* line 476, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-btn {
     margin: 0 0 70px 0;
   }
 }
-
 @media (max-width: 375px) {
-  /* line 482, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-btn {
     font-size: 16px;
     padding: 14px 54px 15px 54px;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 489, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .header__section-promo-btn {
     font-size: 16px;
     padding: 14px 54px 15px 54px;
@@ -638,13 +542,10 @@ body {
   }
 }
 
-/* line 500, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure___img {
   top: 0;
   background-size: cover;
 }
-
-/* line 506, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__bgc {
   position: absolute;
   left: 0;
@@ -652,14 +553,10 @@ body {
   height: 856px;
   z-index: -1;
 }
-
-/* line 514, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__bgc-320 {
   display: none;
 }
-
 @media (max-width: 320px) {
-  /* line 519, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__bgc-320 {
     display: block;
     position: absolute;
@@ -669,52 +566,40 @@ body {
     z-index: -1;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 530, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__bgc {
     display: none;
   }
 }
-
-/* line 536, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body {
   padding: 156px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 860px;
 }
-
 @media (max-width: 420px) {
-  /* line 543, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body {
     padding: 80px 0 0 0;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 549, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body {
     padding: 120px 0 0 0;
     height: 675px;
   }
 }
-
-/* line 555, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__slog {
   font-size: 20px;
   text-transform: uppercase;
   line-height: 110%;
   padding: 0 0 8px 0;
 }
-
 @media (max-width: 480px) {
-  /* line 563, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__slog {
     font-size: 14px;
   }
 }
-
-/* line 568, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__title {
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 60px;
@@ -722,123 +607,92 @@ body {
   font-weight: 600;
   padding: 0 0 40px 0;
 }
-
 @media (max-width: 992px) {
-  /* line 577, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     font-size: 50px;
     max-width: 350px;
   }
 }
-
 @media (max-width: 768px) {
-  /* line 584, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     font-size: 40px;
     max-width: 350px;
     padding: 18px 0 40px 0;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 592, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     padding: 0 0 40px 0;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 599, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     font-size: 30px;
     padding: 0px 0 15px 0;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 606, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     font-size: 30px;
     padding: 0px 0 25px 0;
   }
 }
-
-/* line 612, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__content {
   font-size: 20px;
   line-height: 150%;
   padding: 0 0 168px 0;
 }
-
 @media (max-width: 992px) {
-  /* line 619, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__content {
     padding: 0 0 200px 0;
     max-width: 70%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 626, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__content {
     font-size: 16px;
     padding: 10px 0 110px 10px;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 633, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__content {
     font-size: 13.5px;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 639, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__content {
     font-size: 14px;
     max-width: 100%;
   }
 }
-
-/* line 645, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body-left {
   position: relative;
   margin: 0 71px 0 0;
 }
-
 @media (max-width: 992px) {
-  /* line 651, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left {
     margin: 0;
     left: 10%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 658, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left {
     left: 0%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 664, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__container {
     padding: 0 5px 0 10px;
   }
-  /* line 668, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__slog {
     font-size: 16px;
     padding: 0 0 4px 0;
   }
-  /* line 673, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__title {
     font-size: 38px;
     line-height: 110%;
     padding: 0 0 35px 0;
   }
-  /* line 679, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__content {
     padding: 0 0 133px 0;
     font-size: 16px;
@@ -846,50 +700,37 @@ body {
     max-width: 96%;
   }
 }
-
-/* line 687, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body-left-pic {
   display: block;
   position: absolute;
   top: 0;
   right: 0;
 }
-
-/* line 694, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body-left-pic-320 {
   display: none;
 }
-
 @media (max-width: 992px) {
-  /* line 699, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left-pic {
     left: -9%;
     top: -2%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 706, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left-pic {
     width: 100%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 712, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left-pic {
     width: 110%;
     left: -5%;
     top: -1%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 720, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left-pic {
     display: none;
   }
-  /* line 724, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__body-left-pic-320 {
     display: block;
     position: absolute;
@@ -898,79 +739,61 @@ body {
     left: -3%;
   }
 }
-
-/* line 733, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__body-right {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-/* line 737, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__pic {
   width: 555px;
 }
-
 @media (max-width: 1200px) {
-  /* line 742, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__pic {
     max-width: 370px;
   }
 }
-
 @media (max-width: 1024px) {
-  /* line 748, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__pic {
     max-width: 370px;
   }
 }
-
 @media (max-width: 992px) {
-  /* line 754, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__pic {
     display: none;
   }
 }
-
-/* line 759, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__btn {
   border: 3px solid var(--black-color);
   color: var(--black-color);
   background: url(/img/btn_arrow.svg) no-repeat right 40.5px center;
   padding: 15px 82.5px 15px 40.5px;
 }
-
 @media (max-width: 320px) {
-  /* line 767, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__btn {
     margin: 0 0 80px 0;
   }
 }
-
 @media (max-width: 992px) {
-  /* line 773, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-adventure__pic {
     display: none;
   }
 }
-
-/* line 779, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__roadmap-right, .section-adventure__roadmap-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-/* line 785, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__roadmap-right-pic {
   padding: 0 8px 0 0;
   min-width: 21px;
 }
-
-/* line 790, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure .section-adventure__roadmap-left-pic {
   padding: 0 0 0 8px;
   min-width: 21px;
 }
-
-/* line 795, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-adventure__roadmap-right-city {
   display: block;
   font-family: "Turkishye", Helvetica, sans-serif;
@@ -978,7 +801,6 @@ body {
   padding: 5px 0 0 0;
 }
 
-/* line 803, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-istambul {
   min-width: 90px;
   position: absolute;
@@ -987,38 +809,29 @@ body {
 }
 
 @media (max-width: 992px) {
-  /* line 811, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-istambul {
     top: -8%;
     left: 29%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 818, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-istambul {
     top: -7%;
     left: 39%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 825, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-istambul {
     top: -6%;
     left: 47%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 832, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-istambul {
     top: -6%;
     left: 50%;
   }
 }
-
-/* line 838, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-kaleiçi {
   min-width: 90px;
   position: absolute;
@@ -1027,54 +840,41 @@ body {
 }
 
 @media (max-width: 992px) {
-  /* line 846, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 16%;
     left: 53%;
   }
 }
-
 @media (max-width: 768px) {
-  /* line 853, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 16%;
     left: 60%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 860, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 15%;
     left: 69%;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 867, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 10%;
     left: 64%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 874, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 8%;
     left: 75%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 881, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kaleiçi {
     top: 12%;
     left: 72%;
   }
 }
-
-/* line 887, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-kekova {
   min-width: 90px;
   position: absolute;
@@ -1083,46 +883,35 @@ body {
 }
 
 @media (max-width: 992px) {
-  /* line 895, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kekova {
     top: 28%;
     left: -10%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 902, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kekova {
     top: 24%;
     left: -10%;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 909, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kekova {
     top: 17%;
     left: -16%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 916, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kekova {
     top: 15%;
     left: -16%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 923, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-kekova {
     top: 16%;
     left: -3%;
   }
 }
-
-/* line 930, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-termessos {
   min-width: 90px;
   position: absolute;
@@ -1131,38 +920,29 @@ body {
 }
 
 @media (max-width: 600px) {
-  /* line 938, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-termessos {
     top: 63%;
     left: 10%;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 945, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-termessos {
     top: 28%;
     left: 10%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 952, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-termessos {
     top: 12%;
     left: 10%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 959, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-termessos {
     top: 54%;
     left: 0%;
   }
 }
-
-/* line 965, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-manavgat {
   min-width: 90px;
   position: absolute;
@@ -1171,46 +951,35 @@ body {
 }
 
 @media (max-width: 992px) {
-  /* line 973, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-manavgat {
     bottom: 15%;
     left: 28%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 980, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-manavgat {
     bottom: 23%;
     left: 40%;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 987, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-manavgat {
     bottom: 40%;
     left: 40%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 994, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-manavgat {
     bottom: 51%;
     left: 46%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 1001, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-manavgat {
     bottom: 38%;
     left: 40%;
   }
 }
-
-/* line 1008, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-side {
   min-width: 90px;
   position: absolute;
@@ -1219,51 +988,38 @@ body {
 }
 
 @media (max-width: 992px) {
-  /* line 1016, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-side {
     bottom: 22%;
     left: 56%;
   }
 }
-
 @media (max-width: 600px) {
-  /* line 1023, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-side {
     bottom: 30%;
     left: 75%;
   }
 }
-
 @media (max-width: 480px) {
-  /* line 1030, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-side {
     bottom: 47%;
     left: 75%;
   }
 }
-
 @media (max-width: 420px) {
-  /* line 1037, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-side {
     bottom: 56%;
     left: 81%;
   }
 }
-
 @media (max-width: 320px) {
-  /* line 1044, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
   .section-side {
     bottom: 46%;
     left: 78%;
   }
 }
-
-/* line 1051, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__bcg {
   position: relative;
 }
-
-/* line 1055, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__pic {
   position: absolute;
   top: 0;
@@ -1271,16 +1027,21 @@ body {
   width: 100%;
   z-index: -1;
 }
-
-/* line 1063, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-/* line 1070, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__title {
   padding: 130px 0 32px 0;
   text-align: center;
@@ -1291,65 +1052,138 @@ body {
   font-family: "Raleway", Helvetica, sans-serif;
   color: var(--body-color);
 }
-
-/* line 1081, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__desc {
   font-size: 20px;
   line-height: 150%;
   color: var(--font-color);
   padding: 0 0 60px 0;
 }
-
-/* line 1088, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__ellipse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 116px 0;
   cursor: pointer;
 }
-
-/* line 1094, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__ellipse:hover {
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
-/* line 1100, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__ellipse-wrap {
   width: 100px;
   height: 100px;
   border-radius: 100%;
   border: 3px solid var(--light-Gray);
   z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-/* line 1111, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__ellipse-ico {
   width: 84px;
   height: 84px;
   border-radius: 100%;
   background-color: var(--light-Gray);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   z-index: 1;
 }
-
-/* line 1123, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__ellipse-play {
   margin: 0 0 0 5%;
   z-index: 2;
 }
-
-/* line 1128, C:/Users/jemal/OneDrive/___web/__freeLancer/web/iLera/iLera_web/#source/scss/style.scss */
 .section-time2travel__whyMe {
   width: 1200px;
   height: 100px;
   background-color: var(--body-color);
 }
 
-/*# sourceMappingURL=style.css.map */
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  color: var(--font-color);
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+.popup.open .popup__content {
+  -webkit-transform: perspective(600px) translate(0px, 0%) rotate(0);
+          transform: perspective(600px) translate(0px, 0%) rotate(0);
+  opacity: 1;
+}
+.popup__body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 10px;
+}
+.popup__content {
+  background-color: var(--font-color);
+  color: var(--black-color);
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  -webkit-transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+          transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+.popup__content_image {
+  padding: 0;
+}
+.popup__title {
+  font-size: 40px;
+  margin: 0px 0px 1em 0px;
+}
+.popup__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.popup__image img {
+  max-width: 100%;
+  vertical-align: top;
+}

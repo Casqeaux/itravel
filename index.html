@@ -62,7 +62,7 @@
               <li><a href="#" class="header__menu-link">
                   Prices
                 </a></li>
-              <li><a href="#" class="header__menu-link">
+              <li><a href="#popup1" class="header__menu-link">
                   Camping
                 </a></li>
             </ul>
@@ -75,7 +75,7 @@
             <span class="header__section-promo-desc">
               The most beautiful plases and unforgettable nature
             </span>
-            <a href="#">
+            <a href="#popup1" class="popup-link">
               <button class="header__section-promo-btn btn">Book a trip</button>
             </a>
           </div>
@@ -92,7 +92,7 @@
         </div>
         <div class="section-adventure__body">
           <div class="section-adventure__body-left">
-            <img class="section-adventure__body-left-pic" src="./img/section__adv_map.svg" alt="" srcset="">
+            <img class="section-adventure__body-left-pic" src="./img/section__adv_map.svg" alt="" class="popup-link">
             <img class="section-adventure__body-left-pic-320" src="./img/section__adv_map_320px.svg" alt="" srcset="">
             <div class="section-adventure__roadmap-right section-istambul">
               <img class="section-adventure__roadmap-right-pic" src="/img/loc_ico.svg" alt="Иконка локации">
@@ -128,8 +128,9 @@
             <button class="section-adventure__btn btn">Book a trip</button>
           </div>
           <div class="section-adventure__body-right">
-            <img class="section-adventure__pic" src="./img/section__adv_2.png" alt="" srcset="">
-
+            <a href="#image" class="content__image popup-link">
+              <img class="section-adventure__pic" src="./img/section__adv_2.png" alt="" srcset="">
+            </a>
           </div>
         </div>
       </div>
@@ -147,35 +148,84 @@
           <span class="section-time2travel__desc">
             The most beautiful places and unforgettable nature
           </span>
-          <a href="#" class="section-time2travel__link">
-          <div class="section-time2travel__ellipse">
-          <div class="section-time2travel__ellipse-wrap">
-            <div class="section-time2travel__ellipse-ico">
-              <svg class="section-time2travel__ellipse-play" xmlns="http://www.w3.org/2000/svg" width="28" height="31" fill="none"><path fill="#39AC03" d="M27 13.768c1.333.77 1.333 2.694 0 3.464L3.75 30.655c-1.333.77-3-.192-3-1.732V2.077c0-1.54 1.667-2.502 3-1.732L27 13.768Z"/></svg>
+          <a href="#popup2" class="section-time2travel__link popup-link">
+            <div class="section-time2travel__ellipse">
+              <div class="section-time2travel__ellipse-wrap">
+                <div class="section-time2travel__ellipse-ico">
+                  <svg class="section-time2travel__ellipse-play" xmlns="http://www.w3.org/2000/svg" width="28"
+                    height="31" fill="none">
+                    <path fill="#39AC03"
+                      d="M27 13.768c1.333.77 1.333 2.694 0 3.464L3.75 30.655c-1.333.77-3-.192-3-1.732V2.077c0-1.54 1.667-2.502 3-1.732L27 13.768Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="section-time2travel__whyMe">
+            <div class="section-time2travel__whyMe-wrap">
+              <h3 class="section-time2travel__whyMe-title">
+                14+
+              </h3>
+              <span class="section-time2travel__whyMe-desc">
+                Happy travelers
+              </span>
             </div>
           </div>
-          </div>
-        </a>
-        <div class="section-time2travel__whyMe">
-          <div class="section-time2travel__whyMe-wrap">
-            <h3 class="section-time2travel__whyMe-title">
-              14+
-            </h3>
-            <span class="section-time2travel__whyMe-desc">
-              Happy travelers
-            </span>
-          </div>
-        </div>
         </div>
       </div>
     </div>
 
   </div>
 
+  <div id="popup1" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup">X</a>
+        <div class="popup__title">Это модальное окно №1</div>
+        <div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+          Имени ipsum свою всеми вскоре, которое текстами переулка мир города курсивных реторический, алфавит
+          необходимыми lorem, но предложения заглавных обеспечивает? Силуэт?
+          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Имени ipsum свою всеми
+          вскоре, которое текстами переулка мир города курсивных реторический, алфавит необходимыми lorem, но
+          предложения заглавных обеспечивает? Силуэт?
+          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Имени ipsum свою всеми
+          вскоре, которое текстами переулка мир города курсивных реторический, алфавит необходимыми lorem, но
+          предложения заглавных обеспечивает? Силуэт?
+          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Имени ipsum свою всеми
+          вскоре, которое текстами переулка мир города курсивных реторический, алфавит необходимыми lorem, но
+          предложения заглавных обеспечивает? Силуэт?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup2" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup">X</a>
+        <div class="popup__title">Это модальное окно №2</div>
+        <div class="popup__text"><a href="#popup1" class="popup-link">Хуй</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="image" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#" class="popup__close close-popup">X</a>
+        <div class="popup__image">
+          <img src="./img/section__adv_2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Подключаем jQuery -->
   <script src="jQuery/jquery-3.7.1.min.js"></script>
   <!-- Подключаем файл JS-Скриптов -->
   <script src="js/script.js"></script>
+  <script src="js/popup.js"></script>
 </body>
 
 </html>
