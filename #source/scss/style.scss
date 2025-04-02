@@ -73,6 +73,11 @@ body {
   font-weight: 400;
 }
 
+// Добавление блокировки скрола
+// body.lock {
+//   overflow-y: hidden
+// }
+
 .hero-section {
   flex: 1 0 100%;
   position: relative;
@@ -1217,6 +1222,7 @@ body {
     top: 40px;
     right: 38px;
     transition: 0.3s;
+
     &:hover {
       transform: scale(1.05);
       transition: 0.3s;
@@ -1249,6 +1255,7 @@ body {
     color: var(--font-color);
     text-align: center;
     transition: 0.3s;
+
     &:hover {
       transform: scale(1.05);
       transition: 0.3s;

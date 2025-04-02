@@ -53,7 +53,7 @@ function popupClose(popupActive, doUnlock = true) {
 }
 
 function bodyLock() {
-    const lockPaddingValue = window.innerWidth - document.querySelector('body').offsetWidth;
+    const lockPaddingValue = window.innerWidth - document.querySelector('body').offsetWidth
     for (let index = 0; index < lockPadding.length; index++) {
         const el = lockPadding[index];
         el.style.paddingRight = lockPaddingValue;
