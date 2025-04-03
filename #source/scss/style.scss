@@ -1076,7 +1076,7 @@ body {
   }
 
   &__link {
-    z-index: 999999;
+    z-index: 0; 
   }
 
   &__content {
@@ -1137,7 +1137,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 0;
   }
 
 
@@ -1233,6 +1233,7 @@ body {
     // Анимация текста
     transition: all 0.8s ease-in-out 0s;
     opacity: 0;
+    z-index: 99999;
     // transform: translate(0px, -100%); 
     // transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
   }
@@ -1257,6 +1258,10 @@ body {
 
   &__content_image {
     padding: 0;
+  }
+
+  &__content-video {
+    background-color: transparent;
   }
 
   &__title {
@@ -1285,6 +1290,16 @@ body {
     top: 40px;
     right: 38px;
     transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  }
+
+  &__close-video {
+    top: 10px;
+    right: -50px; 
 
     &:hover {
       transform: scale(1.05);
