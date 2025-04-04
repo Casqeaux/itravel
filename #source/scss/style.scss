@@ -89,7 +89,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
   }
 }
 
@@ -193,8 +193,7 @@ body {
       padding: 150px 0 20px 0;
       transition: 0s;
       overflow: auto;
-      opacity: 97%;
-
+      opacity: 96%;
     }
 
     &__body.active {
@@ -203,6 +202,7 @@ body {
       top: 0;
       transition: 0s;
       animation: ani 600ms forwards;
+      overflow: hidden;
     }
 
     @keyframes ani {
@@ -210,8 +210,8 @@ body {
         opacity: 0;
       }
 
-      100% {
-        opacity: 1;
+      98% {
+        opacity: 0.98;
       }
 
     }
@@ -253,7 +253,7 @@ body {
     width: 35px;
     height: 18px;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1;
 
     span {
       top: 8px;
@@ -1076,7 +1076,7 @@ body {
   }
 
   &__link {
-    z-index: 0; 
+    z-index: 0;
   }
 
   &__content {
@@ -1169,7 +1169,7 @@ body {
 
   &__whyMe-wrap {
     text-align: center;
-  
+
     &:last-child {
       margin: 0;
     }
@@ -1188,6 +1188,84 @@ body {
     font-size: 20px;
     line-height: 150%;
     color: var(--dark-Gray);
+  }
+}
+
+.section-about {
+  min-height: 1178px;
+
+  &___img {
+    top: 0;
+    background-size: cover;
+
+  }
+
+  &__bgc {
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+    z-index: -1;
+  }
+
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 820px;
+    padding: 80px 0 32px 0;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 110%;
+    font-weight: bold;
+    color: var(--black-color);
+  }
+
+  &__desc {
+    text-align: center;
+    color: var(--black-color);
+    font-size: 20px;
+    line-height: 150%;
+    padding: 0 0 40px 0;
+  }
+
+  &__gallery {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__gallery__wrap {
+    max-width: 1148px;
+    margin: 0 0 60px 0;
+  }
+
+  &__gallery-link {
+    margin: 0 32px 32px 0;
+
+    &:nth-child(3),
+    &:last-child {
+      margin: 0;
+    }
+
+    &:nth-child(4),
+    &:nth-child(5) {
+      margin: 0 32px 0 0;
+    }
+
+    &:nth-child(6) {
+      margin: 0 28px 0 0;
+    }
+  }
+
+  &__gallery__pic {
+    margin: 0 0 32px 0;
+  }
+
+  &__btn {
+    margin: 0 auto 100px auto;
+    border: 3px solid var(--black-color);
+    color: var(--black-color);
+    background: url(/img/btn_arrow.svg) no-repeat right 40.5px center;
+    padding: 15px 82.5px 15px 40.5px;
   }
 }
 
@@ -1299,7 +1377,7 @@ body {
 
   &__close-video {
     top: 10px;
-    right: -50px; 
+    right: -50px;
 
     &:hover {
       transform: scale(1.05);
